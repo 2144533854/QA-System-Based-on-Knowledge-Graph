@@ -68,14 +68,22 @@ interested _count|	感兴趣人数|	3968
 contact_information|	联系方式|	上海联络处 联系人:黄保生 18721254596  电话：021-54995114
 precautions|	注意事项|	CNENA全站展会信息均由会员发布，网站已尽严格审核义务
 cost|	参展费用|	标准展位：5500元/个（3米乘3米），标准展位包括：展出场地，三面或两面展板（高2.5米）
+
+实体与属性关系：
+
+
 #### 运行
 * python manage.py runserver
 
-#### 路由设计
-URL|视图|模板|说明
--|-|-|-
-index|login.views.index|index.html|主页
-login|login.views.login|login.html|登录
-register|login.views.register|register.html|注册
-logout|login.views.logout|NAN|登出
+#### 效果图
+注册
+登陆
+推荐
+问答
+可视化
+查询缓存与查询neo4j比较
+
+
+
+
 
