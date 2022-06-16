@@ -69,7 +69,15 @@ contact_information|	联系方式|	上海联络处 联系人:黄保生 187212545
 precautions|	注意事项|	CNENA全站展会信息均由会员发布，网站已尽严格审核义务
 cost|	参展费用|	标准展位：5500元/个（3米乘3米），标准展位包括：展出场地，三面或两面展板（高2.5米）
 
-实体与属性关系：
+
+#### 实体与属性关系：
+![image](https://user-images.githubusercontent.com/101266608/174006835-fad53925-2c11-41aa-ba60-c43713e4fb70.png)
+
+#### 知识图谱统计（对数轴）
+![image](https://user-images.githubusercontent.com/101266608/174006929-f32f1e06-4a10-4588-95ab-b0d8b2597722.png)
+![image](https://user-images.githubusercontent.com/101266608/174006962-85de706f-5f93-4b9c-a6d8-b9b0656bf4da.png)
+
+
 
 
 #### 运行
