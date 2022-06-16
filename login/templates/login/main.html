@@ -1,0 +1,168 @@
+{#login/templates/login/main.html#}
+{% extends 'login/base.html' %}
+{% block title %}主页{% endblock %}
+{% block content %}
+
+<head>
+<title>中国品牌展会目录-CNENA.COM</title>
+<link rel="stylesheet" type="text/css" href="http://www.cnena.com/images/yellow/2014style.css">
+<link rel="stylesheet" type="text/css" href="http://www.cnena.com/images/yellow/2014cms.css">
+<link rel="stylesheet" type="text/css" href="http://www.cnena.com/images/yellow/2014new.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content=" 会展网、会展信息、展会预告、会展活动、会展产业、会展资讯、会展策划、会展新闻、展览会、会议信息、会展网站、北京展会、上海展会、广州展会、国外展会、展会预告">
+<meta name="description" content="全国约80%的会展活动主办方驻站招商，每年约有百万家企业从这里走向各个展会现场。主流搜索引擎新闻源网站，掌握会展业流量入口，引领会展行业发展方向！">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+</head>
+
+<SCRIPT LANGUAGE="JavaScript">
+//屏蔽可忽略的js脚本错误
+function killErr(){
+	return true;
+}
+window.onerror=killErr;
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" src="http://www.cnena.com/images/default/inc.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://www.cnena.com/images/default/default.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://www.cnena.com/images/default/swfobject.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://www.cnena.com/images/default/jquery-1.2.6.min.js"></SCRIPT>
+
+<body ondblclick="" bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0">
+{% if request.session.is_login %}
+<style type="text/css">
+<!--
+#foot8
+{
+    font-size: 16px;
+    font-family: Arial, "宋体";
+    height: 0px;
+    border-top: solid 1px #E2E2E2;
+    padding-top: 190px;
+    text-align: center;
+    color: #6c6c6c;
+}
+#foot9
+{
+    font-size: 12px;
+    font-family: Arial, "宋体";
+    height: 0px;
+    border-top: solid 1px #D5D5D5;
+    padding-top: 1px;
+    text-align: center;
+    color: #6c6c6c;
+}
+#foot10
+{
+    font-size: 12px;
+    font-family: Arial, "宋体";
+    height: 0px;
+    border-top: solid 3px #F26B13;
+    padding-top: 1px;
+    text-align: center;
+    color: #6c6c6c;
+}
+-->
+</style>
+    <div id="alibar" class="alibar2013 mod-alibar fd-clr">
+    <div>
+        <div class="alibar-container">
+            <div class="account-sign-status">
+                <ul>
+                    <li class="account-welcome">
+      <div id="top_login">
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write('<span id="head_loginer"></span>');
+document.write('<div style="display:none;"><iframe src="http://www.cnena.com/do/hack.php?hack=login&iframeID=head_loginer&styletype=yellow" width=0 height=0></iframe></div>');
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--//目的是为了做风格方便
+document.write('<div class="wrap" onmouseover=hiddendiv("listselect")>');
+//-->
+</SCRIPT>
+
+<!--
+--> 
+<link rel="stylesheet" type="text/css" href="http://www.cnena.com/images/yellow/showroom_listall.css">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="listalltable">
+  <tr>
+    <td class="main">
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="dragTable">
+
+          <tr>
+            <td class="cont">
+
+{% for i in data %}
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="listshop">
+              <tr>
+                <td class="img"><a href="bencandy-htm-fid-8-id-2090.html" target="_blank"><img src="http://www.cnena.com/upload_files/qb_topzhanhui_/8/6928_20210723130757_MTgwKzEyMA==.jpg.gif" onerror="this.src='http://www.cnena.com/images/default/nopic.jpg'" width="120" height="90"/></a></td>
+                <td class="info">
+                  <div class="title"><a href="bencandy-htm-fid-8-id-2090.html" target="_blank" title= {{i.展会名称}} style="color:;"> {{i.展会名称}}</a> </div>
+                  <div class="sort">所属分类：{{i.展会类型}}</div>
+                  <div class="sort">展览地点：{{i.展览地点}}</div>
+                  <div class="sort">所在国家：{{i.所在国家}}</div>
+                  <div class="sort">欢迎参与：报名参展</div>
+                  <div class="more">开幕日期：{{i.开始时间}}  &nbsp;&nbsp;结束日期：{{i.结束时间}}  &nbsp;&nbsp;共:&nbsp;{{i.感兴趣人数}}&nbsp;人感兴趣</div>
+                </td>
+              </tr>
+            </table>
+
+{% endfor %}
+
+
+            </td>
+          </tr>
+        </table>
+    </td>
+
+
+  </tr>
+</table><br />
+
+
+<!--
+-->
+<style type="text/css">
+<!--
+#foot8
+{
+    font-size: 12px;
+    font-family: Arial, "宋体";
+    height: 90px;
+    border-top: solid 2px #F75000;
+    padding-top: 15px;
+    text-align: center;
+    color: #6c6c6c;
+}
+.STYLE3 {color: #666666}
+-->
+</style>
+
+<script src="http://www.cnena.com/js/duilianjs/js/a.js" type="text/javascript"></script>
+<br />
+
+
+        <!-- Message View -->
+    </div>
+    <div style="clear: both">
+    </div>
+    <!-- Message View -->
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--//目的是为了做风格方便
+document.write('</div>');
+//-->
+</SCRIPT>
+                      {% else %}
+    <h1>你尚未登录，只能访问公开内容！</h1>
+    {% endif %}
+</body>
+</html>
+{% endblock %}
